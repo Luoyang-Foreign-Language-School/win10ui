@@ -306,9 +306,7 @@
             // 失败
             fail (){
                 let bool = confirm('踩到雷，失败了！')
-                if(bool){
-                    window.location.reload()
-                }
+                window.location.reload()
                 setTimeout(function () {
                      Win10.newMsg('没错你的扫雷挂了'，'没错你的扫雷挂了')
                 },2000);
