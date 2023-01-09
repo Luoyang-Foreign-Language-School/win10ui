@@ -314,6 +314,7 @@
             // 成功
             victory (){
                 alert('成功了！成功了！带成功！')
+                Win10.newMsg('你成功了', '你的扫雷成功了,但是"'你的生命减少了 ' + document.querySelector('#time').innerText + ' 秒')
                 clearInterval(this.timer)
                 alert('你的生命减少了 ' + document.querySelector('#time').innerText + ' 秒')
             }
