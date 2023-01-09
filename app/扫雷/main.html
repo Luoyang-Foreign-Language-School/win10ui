@@ -306,7 +306,9 @@
             // 失败
             fail (){
                 let bool = confirm('踩到雷，失败了！')
-                window.location.reload()
+                if(bool){
+                    window.location.reload()
+                }
             }
 
             // 成功
@@ -346,4 +348,3 @@
     </script>
 </body>
 </html>
-
