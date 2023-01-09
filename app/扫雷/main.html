@@ -306,18 +306,22 @@
             // 失败
             fail (){
                 let bool = confirm('踩到雷，失败了！')
-                Win10.newMsg('没错你的扫雷挂了'，'没错你的扫雷挂了')
                 if(bool){
                     window.location.reload()
                 }
+                setTimeout(function () {
+                     Win10.newMsg('没错你的扫雷挂了'，'没错你的扫雷挂了')
+                },2000);
             }
 
             // 成功
             victory (){
                 alert('成功了！成功了！带成功！')
-                Win10.newMsg('你成功了', '你的扫雷成功了,但是"'你的生命减少了 ' + document.querySelector('#time').innerText + ' 秒')
                 clearInterval(this.timer)
                 alert('你的生命减少了 ' + document.querySelector('#time').innerText + ' 秒')
+                setTimeout(function () {
+                    Win10.newMsg('你成功了', '你的扫雷成功了,但是"'你的生命减少了 ' + document.querySelector('#time').innerText + ' 秒')
+                ,2000);
             }
 
             // 右键事件
