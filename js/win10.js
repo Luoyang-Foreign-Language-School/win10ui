@@ -864,9 +864,11 @@ window.Win10 = {
             shadeClose: true, //开启遮罩关闭
             area: ['320px', '200px'], //宽高
             content: '<div style="padding: 10px;font-size: 12px">' +
-            '<p>支持组件:layer、jquery、animated.css、font-awesome</p>' +
-            '<p>尤里2号©版权所有</p>' +
-            '<p>作者邮箱:yuri2peter@qq.com</p>' +
+            '<p>支源代码归开源项目所有，修改过后的源代码已经公开</p>' +
+            '<p>此网站不会收取任何费用，也不会获取任何用户信息，</p>' +
+            '<p>此网站上面的任何网站均指向官网</p>' +
+            '<p>本网站由github托管所以速度可能很慢</p>' +
+            '<p>联系油箱: Bzy080408@outlook.com</p>' +
             '</div>'
         });
     },
