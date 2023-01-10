@@ -47,11 +47,10 @@
 
 
         });
-
-        //该函数可删除 Orz
+        
         function win10_forgive_me() {
             Win10.enableFullScreen();
-            layer.alert('点击展示下一版本特性', {}, function(index){
+            layer.alert('确定继续？', {}, function(index){
                 var blue=$('<img src="./img/presentation/bluescreen.jpg" style="position: fixed;width: 100%;height:100%;top:0;z-index:9999999999" />');
                 setTimeout(function () {
                     $('body').append(blue);
@@ -60,7 +59,7 @@
                     blue.remove();
                     Win10.disableFullScreen();
                     setTimeout(function () {
-                        layer.msg('开个玩笑，别打我');
+                        layer.msg('蓝屏模拟器');
 
                     },1000);
                 },7000);
@@ -137,6 +136,7 @@
             <div class="item" onclick=" Win10.exit();"><i class="black icon fa fa-power-off fa-fw"></i>关闭</div>
         </div>
         <div class="blocks">
+            常用磁铁
             <div class="menu_group">
                 <div class="title">
                 </div>
@@ -168,7 +168,7 @@
                     </div>
                 </div>
             </div>
-
+            没什么用的此贴
             <div class="menu_group">
                 <div class="title">
                 </div>
